@@ -116,7 +116,7 @@ thing.addAction(
 			}]
 	},
 	() => {
-		console.log("Turnýng off");
+		console.log("TurnÃ½ng off");
 		return thing.properties[NAME_PROPERTY_STATE].read().then( () => {
 			let value = "off";
 			thing.properties[NAME_PROPERTY_STATE].write(value);
